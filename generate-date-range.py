@@ -1,4 +1,4 @@
-start_of_range_date_espn_format = "01+Jan+2010"
+start_of_range_date_espn_format = "01+Jan+1990"
 month_formats = [
     {"month_as_espn_format": "31+Jan+", "month_as_standard_date": "-01-01"},
     {"month_as_espn_format": "28+Feb+", "month_as_standard_date": "-02-01"},
@@ -15,7 +15,7 @@ month_formats = [
 ]
 months = []
 
-for year in range(2010, 2020):
+for year in range(1990, 2000):
     year_as_string = str(year)
 
     for month_format in month_formats:
